@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0.5rem;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+/* Home page */
+
+#menu nav{
+    border: 2px solid #000;
+    border-radius: 2rem;
+    max-width:600px;
+    margin: 0 auto 1rem;
+    line-height: 5rem;
+}
+
+#menu h2{
+    padding: 0.5rem;
+    background-color: bisque;
+    border-radius: 2rem 2rem 0 0;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu li{
+    border-top: 1px solid #000;
+}
+
+#menu li a{
+    display: block;
+}
+
+#menu li a, li a:visited{
+    color: #000;
+}
+ 
+#menu li a:hover, #menu li a:focus{
+    background-color: #000;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#menu li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+
+/* pages */
+
+.pages nav{
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.pages ul{
+    list-style: none;
+}
+
+.pages li{
+    margin: 0.5rem;
+    display: inline-block;
+}
+.pages li a{
+    text-decoration: none;
+}
+.pages li a:hover{
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+}
+
+
+.pages img{
+    width: 50%;
+    height: 50%;
+}
